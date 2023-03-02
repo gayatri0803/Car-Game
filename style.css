@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.score {
+    
+    width: 100%;
+    background-color: black;
+    height: 80px;
+
+}
+
+.start{
+
+    padding: 20px;
+    color: white;
+    background-color: red;
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 20px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.start p{
+    margin-top: 5 px;
+}
+
+.game{
+    width: 400px;
+    height: 90vh;
+    position: relative;
+    background-color: black;
+    margin: auto;
+}
+
+.hide{
+    display: none;
+}
+
+.car{
+   /* background-image: url('car-1.jpg');
+    background-size: contain;*/
+    background-color: red;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.line{
+    background-color: white;
+    height: 100px;
+    position: absolute;
+    margin-left: 46%;
+    width: 12px;
+}
